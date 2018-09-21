@@ -18,9 +18,9 @@ module.exports = function () {
   var metadata = {
     allowConfigUpdate: true, //set to false to turn off REST endpoint of allowing update of metadata
     waitForMoreResponsesMs: 200,  //milliseconds to wait for additional webhook responses
-    amzn_appId: "amzn1.ask.skill.df22d270-6bc3-4a37-8e53-b8d34343434",
-    channelSecretKey: 'M7ZYISEuRnNF8QSCnQReROfkirWcvYT',
-    channelUrl: 'https://e87476aa.ngrok.io/connectors/v1/tenants/chatbot-tenant/listeners/webhook/channels/9F3ED4ED-B125-45D3-AEB5-827B381534V'
+    amzn_appId: "amzn1.ask.skill.8f0719f6-cc4d-42e2-956a-57d8525bb644",
+    channelSecretKey: 'F7Ja0ApeR7NuETnSjFB5YbHGPUuvFSnw',
+    channelUrl: 'https://e87476aa.ngrok.io/connectors/v1/tenants/chatbot-tenant/listeners/webhook/channels/61D8A063-2097-47FC-9405-340EB82EF8E7'
   };
 
   this.randomIntInc = function (low, high) {
